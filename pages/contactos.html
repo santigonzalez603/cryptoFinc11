@@ -17,20 +17,20 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/quienessomos.html">¿Quienes Somos?</a>
+                    <a class="nav-link" href="quienessomos.html">¿Quienes Somos?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/preguntasFrecuentes.html">Preguntas Frecuentes</a>
+                    <a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/error404.html">Robo o extravio</a>
+                    <a class="nav-link" href="error404.html">Robo o extravio</a>
                   </li><li class="nav-item">
-                    <a class="nav-link" href="./pages/seguridad.html">Seguridad</a>
+                    <a class="nav-link" href="seguridad.html">Seguridad</a>
                   </li><li class="nav-item">
-                    <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+                    <a class="nav-link" href="contactos.html">Contactos</a>
                   </li>
                 </ul>
               </div>
@@ -46,22 +46,26 @@
                 <article class="col-12 col-md-6 mb-3">
                     <form>
                         <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          <label for="nombreapellido1" class="form-label">Nombre y apellido *</label>
+                          <input type="text" class="form-control" id="nombreapellido1" placeholder="Juan Perez" required>
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <label for="correo1" class="form-label">Email *</label>
+                          <input type="text" class="form-control" id="correo1" placeholder="juanperez@gmail.com" required>
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <div class="mb-3">
+                          <label for="telefono" class="form-label">Telefono</label>
+                          <input type="tel" class="form-control" id="telefono" placeholder="+15551234567">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="mb-3">
+                          <label for="consulta" class="form-label">Ingrese su consulta *</label>
+                          <textarea class="form-control" id="consulta" rows="3" required></textarea>
+                        </div>
+                        <p>Los campos con (*) son obligatorios</p>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                       </form>
                 </article>
-                <article class="col-12 col-md-6">
+                <article class="col-12 col-md-6 mb-3">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1059174722677!2d-65.20974192477854!3d-26.83658327669254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1740442583177!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 h-100"></iframe>
                 </article>
             </div>
