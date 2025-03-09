@@ -12,7 +12,7 @@ main{
     flex-grow: 1;
 }
 .marca{
-    font-family: "BlackHanSans", sans-serif;
+    font-family: "BlackHanSans", 'sans-serif';
 }
 .img-carousel-crypto{
     height: 300px;
